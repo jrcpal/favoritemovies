@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Finder</title>
+
+  <meta property="og:title" content="Movie Finder App">
+  <meta property="og:description" content="Easy to use website to find movies.">
+  <meta property="og:image" content="https://res.cloudinary.com/roastcollective/image/upload/v1574370189/CTA_q1he1r.png">
+  <meta property="og:url" content="">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="screen"></div>
+
+  <header>
+    <h1>Movie Finder</h1>
+    <input autofocus placeholder="Search for movie..." />
+    <button id="search-button">Find</button>
+    <br>
+    <a href="index.html">Search</a>
+    <a href="favorites.html">Favorites</a>
+  </header>
+  <div id="search-results">
+  </div>
+
+  <div id="modal">
+    <h3>Movie Details</h3>
+    <p id="exit">X</p>
+    <hr>
+
+    <div id="modal-content">
+    </div>
+
+  </div>
+
+    
+</body>
+</html>
+
+
